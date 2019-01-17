@@ -47,7 +47,6 @@ public class restController {
             if(user.getPassword()==usercheck.get().getPassword())return "valid user ";
 
         }
-        KKKKKKKKK
 */
 
 
