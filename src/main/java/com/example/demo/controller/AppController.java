@@ -15,7 +15,7 @@ public class AppController {
     @RequestMapping("/welcome")
     public String Welcome()
     {
-        return "welcomepage";
+        return "login";
     }
 
 

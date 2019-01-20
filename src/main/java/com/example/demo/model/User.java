@@ -24,14 +24,17 @@ public class User {
     private int  age;
     @Column(name="password")
     private String password;
+    @Column(name="role_id")
+    private String role_id;
 
-    public User(String userName, String firstname, String lastname, int age, String password) {
+    public User(String userName, String firstname, String lastname, int age, String password, String role_id) {
         super();
         this.userName = userName;
         this.firstname = firstname;
         this.lastname = lastname;
         this.age = age;
         this.password = password;
+        this.role_id = role_id;
     }
     public User(String userName, String password) {
         super();
